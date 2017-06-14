@@ -1,0 +1,665 @@
+The system is: Darwin - 16.6.0 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_1b8d7/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_1b8d7.dir/build.make CMakeFiles/cmTC_1b8d7.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_1b8d7.dir/testCXXCompiler.cxx.o
+/usr/bin/g++      -o CMakeFiles/cmTC_1b8d7.dir/testCXXCompiler.cxx.o -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1b8d7
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b8d7.dir/link.txt --verbose=1
+/usr/bin/g++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b8d7.dir/testCXXCompiler.cxx.o  -o cmTC_1b8d7  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_bb273/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_bb273.dir/build.make CMakeFiles/cmTC_bb273.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++      -o CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_bb273
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb273.dir/link.txt --verbose=1
+/usr/bin/g++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bb273   
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_bb273 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTC_bb273/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTC_bb273.dir/build.make CMakeFiles/cmTC_bb273.dir/build]
+  ignore line: [gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++      -o CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_bb273]
+  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb273.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bb273   ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_bb273 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> lib [to_library]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bb273] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_bb273.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [to_library;c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_639e1/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_639e1.dir/build.make CMakeFiles/cmTC_639e1.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_639e1.dir/feature_tests.cxx.o
+/usr/bin/g++     -std=c++14 -o CMakeFiles/cmTC_639e1.dir/feature_tests.cxx.o -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_639e1
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_639e1.dir/link.txt --verbose=1
+/usr/bin/g++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_639e1.dir/feature_tests.cxx.o  -o cmTC_639e1  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_384a2/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_384a2.dir/build.make CMakeFiles/cmTC_384a2.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_384a2.dir/feature_tests.cxx.o
+/usr/bin/g++     -std=c++11 -o CMakeFiles/cmTC_384a2.dir/feature_tests.cxx.o -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_384a2
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_384a2.dir/link.txt --verbose=1
+/usr/bin/g++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_384a2.dir/feature_tests.cxx.o  -o cmTC_384a2  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_6ad6a/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_6ad6a.dir/build.make CMakeFiles/cmTC_6ad6a.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_6ad6a.dir/feature_tests.cxx.o
+/usr/bin/g++     -std=c++98 -o CMakeFiles/cmTC_6ad6a.dir/feature_tests.cxx.o -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6ad6a
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ad6a.dir/link.txt --verbose=1
+/usr/bin/g++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6ad6a.dir/feature_tests.cxx.o  -o cmTC_6ad6a  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_73e39/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_73e39.dir/build.make CMakeFiles/cmTC_73e39.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_73e39.dir/testCCompiler.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_73e39.dir/testCCompiler.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_73e39
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e39.dir/link.txt --verbose=1
+/usr/bin/gcc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_73e39.dir/testCCompiler.c.o  -o cmTC_73e39  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_1926f/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_1926f.dir/build.make CMakeFiles/cmTC_1926f.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1926f
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1926f.dir/link.txt --verbose=1
+/usr/bin/gcc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o  -o cmTC_1926f   
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_1926f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/opt/local/bin/gmake" "cmTC_1926f/fast"]
+  ignore line: [/opt/local/bin/gmake -f CMakeFiles/cmTC_1926f.dir/build.make CMakeFiles/cmTC_1926f.dir/build]
+  ignore line: [gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"]
+  ignore line: [Building C object CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc     -o CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_1926f]
+  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1926f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o  -o cmTC_1926f   ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_1926f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> lib [to_library]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1926f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_1926f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [to_library;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_11219/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_11219.dir/build.make CMakeFiles/cmTC_11219.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_11219.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c11 -o CMakeFiles/cmTC_11219.dir/feature_tests.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_11219
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11219.dir/link.txt --verbose=1
+/usr/bin/gcc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11219.dir/feature_tests.c.o  -o cmTC_11219  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_a22ed/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_a22ed.dir/build.make CMakeFiles/cmTC_a22ed.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_a22ed.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c99 -o CMakeFiles/cmTC_a22ed.dir/feature_tests.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a22ed
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a22ed.dir/link.txt --verbose=1
+/usr/bin/gcc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a22ed.dir/feature_tests.c.o  -o cmTC_a22ed  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_a1edc/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_a1edc.dir/build.make CMakeFiles/cmTC_a1edc.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_a1edc.dir/feature_tests.c.o
+/usr/bin/gcc    -std=c90 -o CMakeFiles/cmTC_a1edc.dir/feature_tests.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a1edc
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1edc.dir/link.txt --verbose=1
+/usr/bin/gcc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a1edc.dir/feature_tests.c.o  -o cmTC_a1edc  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_aaf5e/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_aaf5e.dir/build.make CMakeFiles/cmTC_aaf5e.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_aaf5e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_aaf5e.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aaf5e
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaf5e.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aaf5e.dir/CheckIncludeFile.c.o  -o cmTC_aaf5e  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_0559d/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_0559d.dir/build.make CMakeFiles/cmTC_0559d.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_0559d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_0559d.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0559d
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0559d.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0559d.dir/CheckIncludeFile.c.o  -o cmTC_0559d  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_7c823/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_7c823.dir/build.make CMakeFiles/cmTC_7c823.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_7c823.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7c823.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7c823
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c823.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c823.dir/CheckIncludeFile.c.o  -o cmTC_7c823  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_b24dc/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_b24dc.dir/build.make CMakeFiles/cmTC_b24dc.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_b24dc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b24dc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_b24dc
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24dc.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b24dc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_b24dc  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_027be/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_027be.dir/build.make CMakeFiles/cmTC_027be.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_027be.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles/cmTC_027be.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_027be
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_027be.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_027be.dir/CheckFunctionExists.c.o  -o cmTC_027be  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_6a296/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_6a296.dir/build.make CMakeFiles/cmTC_6a296.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_6a296.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_6a296.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6a296
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a296.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6a296.dir/CheckIncludeFile.c.o  -o cmTC_6a296  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_e6192/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_e6192.dir/build.make CMakeFiles/cmTC_e6192.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_e6192.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e6192.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e6192
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6192.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e6192.dir/CheckIncludeFile.c.o  -o cmTC_e6192  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_6737c/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_6737c.dir/build.make CMakeFiles/cmTC_6737c.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_6737c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_6737c.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6737c
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6737c.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6737c.dir/CheckIncludeFile.c.o  -o cmTC_6737c  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_926dc/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_926dc.dir/build.make CMakeFiles/cmTC_926dc.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_926dc.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles/cmTC_926dc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_926dc
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_926dc.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_926dc.dir/CheckFunctionExists.c.o  -o cmTC_926dc  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_b83e6/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_b83e6.dir/build.make CMakeFiles/cmTC_b83e6.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_b83e6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b83e6.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b83e6
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b83e6.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b83e6.dir/CheckIncludeFile.c.o  -o cmTC_b83e6  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_71ae7/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_71ae7.dir/build.make CMakeFiles/cmTC_71ae7.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_71ae7.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_71ae7.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71ae7
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71ae7.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71ae7.dir/CheckIncludeFile.c.o  -o cmTC_71ae7  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_23891/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_23891.dir/build.make CMakeFiles/cmTC_23891.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_23891.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_23891.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_23891
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23891.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_23891.dir/CheckIncludeFile.c.o  -o cmTC_23891  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_f834f/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_f834f.dir/build.make CMakeFiles/cmTC_f834f.dir/build
+gmake[1]: ingresso nella directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_f834f.dir/CheckIncludeFile.c.o
+/usr/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_f834f.dir/CheckIncludeFile.c.o   -c /Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f834f
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f834f.dir/link.txt --verbose=1
+/usr/bin/gcc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f834f.dir/CheckIncludeFile.c.o  -o cmTC_f834f  
+gmake[1]: uscita dalla directory "/Users/lucabonfante/Desktop/opencv-3.2.0/build/CMakeFiles/CMakeTmp"
+
+
